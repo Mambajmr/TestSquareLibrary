@@ -1,2 +1,1 @@
-Эта библиотека вычисляет площадь круга по радиусу и площадь треугольника по трем сторонам. Так же проверяет является ли треугольник равнобедренным.
-Вы можете добавить эту библиотеку в свой проект и использовать вычисления площадей.
+This library calculates the circle area by radius and the triangle area by three sides. Also checks if the triangle is isosceles. You can add this library to your project and use area calculations.
