@@ -14,11 +14,11 @@ namespace TestSquareLibrary
         {
             circleRadius = radius;
             if (radius <= 0) 
-                throw new Exception("Радиус не может быть равен нулю или меньше нуля");
+                throw new ArgumentOutOfRangeException(nameof(radius), "Радиус не может быть равен нулю или меньше нуля");
         }
         public override double Square()
         {
-           return circleRadius = (circleRadius * circleRadius) * Math.PI;
+           return circleRadius = Math.PI * Math.Pow(circleRadius, 2);
         }
         
     }         

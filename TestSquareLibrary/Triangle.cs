@@ -22,7 +22,7 @@ namespace TestSquareLibrary
         }
         public override double Square()
         {
-            perimetr = (a + b + c) / 2;
+           perimetr = (a + b + c) / 2;
            return square = Math.Sqrt(perimetr * (perimetr - a) * (perimetr - b) * (perimetr - c));
         }
         public string CheckingTheTriangle()
